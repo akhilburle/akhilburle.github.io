@@ -1,12 +1,92 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Akhil Burle's Webpage
-        </title>
-        <center><h1>Akhil Burle</h1></center>
-    </head>
-    <body>
 
-    </body>
+<head>
+    <title>
+        Akhil Burle's Webpage
+    </title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="uikit-3/css/uikit.min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Serif+Display">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Serif+Display"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            Particles.init({
+                selector: '.background',
+                color: ['#DA0463', '#404B69', '#DBEDF3'],
+                connectParticles: true
+            });
+        };
+
+        function anim() {
+            function animationStart() {
+                $('#container').addClass('fin');
+            }
+            setTimeout(animationStart, 250);
+        };
+
+        anim();
+    </script>
+    <script src="uikit-3/js/uikit.min.js"></script>
+    <script src="uikit-3/js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+    <div class="uk-container">
+
+
+        <!-- <div class="uk-child-width-1-2@m uk-text-center" uk-grid>
+        <div class="uk-animation-toggle" tabindex="0">
+            <img class="uk-animation-stroke" width="400" height="400" src="images/drawing.svg" alt=""
+                uk-svg="stroke-animation: true">
+        </div>
+    </div> -->
+
+
+
+        <canvas class="background"></canvas>
+
+
+        <center>
+            <div class="my_name" style="font-size: 40px;">
+                <h1 style="font-family: 'DM Serif Display';">Akhil Burle</h1>
+            </div>
+        </center>
+
+
+        <!-- <div id="container">
+        <svg id="hello-svg" data-name="hello" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 582 197">
+            <title>Hello</title>
+            <path class="path path-1"
+                d="M208,338c38-16.67,73.74-45.72,97.33-66,21.33-18.33,32.67-35.67,37.33-52.67C347.12,203.12,344,192,332,192c-11,0-21,10.33-24.94,27.68-4.52,19.89-22.06,107.82-29.39,149,15.67-72.33,36.33-81.33,53.67-81.33,22.33,0,24.67,18.67,19.42,39-5.43,21.07-7.42,44.32,17.91,44.32,18,0,35.53-8.17,52.67-20,14-9.67,23-24,23-40,0-13.42-8-23.33-20.67-23.33s-24.33,12-24.33,33.33c0,27,16.33,48,44,48,25.67,0,47.67-19.67,62-44.67,13.61-23.74,30.67-64.67,33.33-92.67s-5.33-36-18.67-36-24.67,17.33-28.67,43.33S486,302,491.33,330s28,37.67,46,37.67,38.17-15.67,52-37c16.54-25.51,35.87-67.45,38.67-102,2-24.67-8.67-33.33-20-33.33-14.67,0-23.33,13.33-28,38-4.5,23.81-8,64-2,94,4.64,23.21,25.33,40.33,44.67,40.33s32.67-19,36.67-42.33"
+                transform="translate(-199 -183)" />
+            <path class="path path-2"
+                d="M697.33,287.33C672,287.33,661.33,305,659,327c-2.81,26.54,10.33,41.67,29.67,41.67,22,0,34.54-20.78,36.67-40.67,2-18.67-7.39-39.13-28-40.67"
+                transform="translate(-199 -183)" />
+            <path class="path path-3" d="M714.8,295.12c12.11,12.26,43.53,9.55,56.53-5.79"
+                transform="translate(-199 -183)" />
+            <line class="path path-4" x1="561" y1="181.67" x2="561" y2="181.67" />
+        </svg>
+    </div> -->
+
+        <div
+            class="uk-card uk-card-default uk-card-body uk-border-rounded uk-box-shadow-small uk-box-shadow-hover-large uk-width-1-2@m">
+            <h3 class="uk-card-title">Corporate Work Experience</h3>
+            <p>This section describes my experience in the professional workforce</p>
+        </div>
+
+        <div
+            class="uk-card uk-float-right uk-card-default uk-card-body uk-border-rounded uk-box-shadow-small uk-box-shadow-hover-large uk-width-1-2@m">
+            <h3 class="uk-card-title">Corporate Work Experience</h3>
+            <p></p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+
+</body>
+
 </html>
